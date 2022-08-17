@@ -33,5 +33,24 @@
 // int count = 1;
 // while (count <= num)
 // {
+// Console.WriteLine("Введите кординаты первой точки: ");
+// int numAx1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите Х1: ");
+// int numBy1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Введите Y1: ");
+// int numCz1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите Z1: ");
+
+// Console.WriteLine("Введите кординаты второй точки: ");
+// int numAx2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите Х1: ");
+// int numBy2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Введите Y1: ");
+// int numCz2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите Z1: ");
+// double DecisionAB=0;
+// Console.WriteLine($"Вектор А({numAx1};{numBy1}; {numCz1}); Вектор B({numAx2};{numBy2};{numCz2})");
+// Console.Write("Расстояние между A и B - ");
+// Console.WriteLine(DecisionAB - Math.Sqrt(Math.Pow(numAx2 - numAx1,2) + Math.Pow(numBy2-numBy1,2)+Math.Pow(numCz2-numCz1,2)));
 //     Console.Write($"|{Math.Pow(count++, 3)}| ");
 }
